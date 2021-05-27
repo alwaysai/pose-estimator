@@ -1,14 +1,5 @@
 import time
 import edgeiq
-"""
-Use pose estimation to determine human poses in realtime. Human Pose returns
-a list of key points indicating joints that can be used for applications such
-as activity recognition and augmented reality.
-
-To change the computer vision model, the engine and accelerator,
-and add additional dependencies read this guide:
-https://alwaysai.co/docs/application_development/configuration_and_packaging.html
-"""
 
 
 def main():
