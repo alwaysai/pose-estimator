@@ -3,7 +3,7 @@ import edgeiq
 
 
 def main():
-    pose_estimator = edgeiq.PoseEstimation("alwaysai/human-pose")
+    pose_estimator = edgeiq.PoseEstimation("alwaysai/human_pose")
     pose_estimator.load(engine=edgeiq.Engine.DNN)
 
     print("Loaded model:\n{}\n".format(pose_estimator.model_id))
